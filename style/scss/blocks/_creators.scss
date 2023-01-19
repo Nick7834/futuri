@@ -1,0 +1,107 @@
+.creators {
+    &__block {
+        margin: 47px 0 20px;
+    }
+}
+
+.creators-table {
+    width: 945px;
+
+    border: 1px solid $lightGray;
+    border-radius: 12px;
+    border-collapse: collapse;
+    border-style: hidden;
+    box-shadow: 0 0 0 1px #d9d9d9;
+
+    th, td {
+        text-align: left;
+        padding: 11.5px 45px 11.5px;
+    }
+
+    thead {
+        border-bottom: 1px solid $lightGray1;
+        th {
+            padding: 23px 40px;
+            font-family: 'Space Grotesk';
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 1.14;
+
+            color: var(--lightGray);
+        }
+    }
+
+
+
+    &__volume {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        font-family: 'Poppins';
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 1.14;
+
+        color: #9B9DA0;
+
+        &::before {
+            content: '';
+            display: block;
+            background: url('../../img/card/btc.svg') no-repeat;
+            width: 15px;
+            height: 20px;
+        }
+    }
+
+    &__arrow {
+        display: flex;
+        align-items: center;
+        gap: 2px;
+    }
+
+    &__percent {
+        font-family: 'Poppins';
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 1.14;
+
+        color: #2AD97B;  
+    }
+
+    &__percent-red {
+        color: $red;
+    }
+
+    &__owners, &__items {
+        font-family: 'Poppins';
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 1.14;
+
+        color: var(--darkGray);
+    }
+}
+
+.collection {
+    display: flex;
+    align-items: center;
+    gap: 21px;
+
+    &__title {
+        font-family: 'Space Grotesk';
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.14;
+
+        color: var(--white);
+    }
+
+    &__name {
+        font-family: 'Poppins';
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 1.14;
+
+        color: var(--darkGray);
+    }
+}

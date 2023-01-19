@@ -1,0 +1,47 @@
+// global 
+
+@import "./global/global";
+@import "./global/vars";
+
+// main 
+
+.wrapper {
+    display: flex;
+}
+
+.main {
+    width: 100%
+}
+
+.block-main {
+    display: flex;
+    justify-content: center;
+    &__left {
+        margin: 0 24px
+    }
+
+    &__right {
+        padding: 46px 39px 49px 43px;
+        background: var(--right);
+    }
+}
+  
+// .container {
+//     max-width: 1284px;
+//     width: 100%;
+//     padding: 0 15px;
+//     margin: 0 auto;
+// }
+
+// blocks
+
+@import "./blocks/slidebar";
+@import "./blocks/header";
+@import "./blocks/banner";
+@import "./blocks/nfts";
+@import "./blocks/creators";
+@import "./blocks/balance";
+@import "./blocks/profiles";
+
+// fonts 
+

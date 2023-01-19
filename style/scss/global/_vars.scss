@@ -1,0 +1,95 @@
+//colors
+$blue: #0997FF;
+$black: black;
+$darkGray: #9B9DA0;
+$lightBlue: #A3B2C8;
+$whiteTwo:  #9B9DA0;
+$birch: #24D4FB;
+$red:  #FF0000;
+$lightGrayCard: #C4C4C4;
+$darkBlue: #F6FAFF;
+$lightGray: #4D4A4A;
+$background: white;
+$right: #F6FAFF;
+$white: #1B1A1E;
+$card: #F6FAFF;
+$tabs: #F6FAFF;
+$white1: white;
+$white2: white;
+$lightGray1: #D9D9D9; 
+$whiteTwo1: #FFF9F9;
+$theme: #eeeeee;
+$darkBlue1: #2E3140;
+
+:root {
+     --lightGray: #{$lightGray};
+     --blue: #{$blue};
+     --white: #{$white};
+     --black: #{$black};
+     --darkGray: #{$darkGray};
+     --darkBlue: #{$darkBlue};
+     --lightBlue: #{$lightBlue};
+     --whiteTwo: #{$whiteTwo};
+     --birch: #{$birch};
+     --card: #{$card};
+     --red: #{$red};
+     --background: #{$background};
+     --right: #{$right};
+     --lightGrayCard: #{$lightGrayCard};
+     --tabs: #{$tabs};
+     --theme: #{$theme};
+     --darkBlue1: #{$darkBlue1};
+}
+
+.dark {
+     --lightGray: #D9D9D9;
+     --darkBlue: #2E3140;
+     --background: #1C1E2A;
+     --right: #2E3140;
+     --white: white;
+     --card: #262C3A;
+     --tabs: rgb(28, 30, 42);
+     --whiteTwo: #D9D9D9;
+     --theme: #2c2f40;
+     --darkBlue1: white;
+
+
+
+     // --darkBlue: #F6FAFF;
+     // --lightGray: #4D4A4A;
+     // --background: white;
+     // --right: #F6FAFF;
+     // --white: #1B1A1E;
+     // --card: #F6FAFF;
+     // --tabs: #F6FAFF;
+}
+
+
+// scroll
+
+
+
+// calc 
+
+
+
+
+// mixin
+
+@mixin card {
+     content: '';
+     position: absolute;
+     top: 53px;
+     left: 32px;
+
+     background-size: contain;
+
+     opacity: 0.7;
+     filter: blur(50px);
+     border-radius: 12px;
+
+     width: 75%;
+     height: 240px;
+     z-index: -1;
+}
+

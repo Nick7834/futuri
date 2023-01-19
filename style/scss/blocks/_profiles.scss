@@ -1,0 +1,101 @@
+.sellers {
+    margin-top: 31px;
+    padding: 18px 34px 47px 28px;
+    background: var(--background);
+    border-radius: 12px;
+    &__top {
+        margin-bottom: 33px;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__title {
+        font-family: 'Space Grotesk';
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 1.14;
+        
+        color: var(--white);
+    }
+
+    &__link {
+        font-family: 'Poppins';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.69;
+        
+        color: #24D4FB;       
+    }
+}
+
+// profile
+
+.profiles {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+    &__profile {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__info {
+        display: flex;
+        align-items: center;
+        gap: 9px;
+    }
+
+    &__avatar {
+        width: 30%;
+    }
+
+    &__name {
+        font-family: 'Poppins';
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1.14;
+
+        color: var(--white);
+    }
+
+    &__name-prof {
+        font-family: 'Poppins';
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.14;
+
+        color: #9B9DA0;
+    }
+
+    &__follow {
+        padding: 17px 0;
+        width: 129px;
+
+        background: #0997FF;
+        border-radius: 8px;
+        border: 1px solid #0997FF;
+
+        font-family: 'Poppins';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.14;
+
+        color: $white1;
+
+        transition: .5s;
+
+        &:hover {
+            background: #48adf6;
+        }
+    }
+
+    .following {
+        border: 1px solid #0997FF;
+        background: 0;
+        color: #0997FF;
+    }
+}

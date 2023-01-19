@@ -1,0 +1,86 @@
+.slidebar {
+    padding: 137px 62px 58px 52px;
+    width: 381px;
+    
+    border-right: 1px solid var(--darkGray);
+
+    &__list {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    &__link {
+        display: flex;
+        gap: 33px;
+        font-family: 'Poppins';
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 34px;
+
+        color: var(--lightGray); 
+    }
+
+    li:nth-child(4) {
+        margin-top: 154px;
+    }
+
+    li:last-child {
+        margin-top: 134px;
+    }
+
+    &__svgMenu {
+        fill: var(--lightGray);
+    }
+
+    &__earn {
+        margin-top: 240px;
+        padding: 29px 20px 35px 33px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        background: url('../../img/img.png');
+        width: 100%;
+        height: 318px;
+        border-radius: 15px;
+    }
+
+    &__title {
+        font-family: 'Space Grotesk';
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.28;
+
+        color: $whiteTwo1; 
+    }
+
+    &__button {
+        min-width: 178px;
+        padding: 20px 18px;
+        border: 0;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+        background: $white1;
+        border-radius: 12px;
+
+        font-family: 'Poppins';
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.28;
+
+        color: $black;
+    }
+
+    &__svg {
+        display: flex;
+    }
+}
+
+.active-slidebar .slidebar__link, .active-slidebar .slidebar__svgMenu  {
+    color: var(--blue);
+    fill: var(--blue); 
+}
