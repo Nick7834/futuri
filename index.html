@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=`, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/icon.jpg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/galano-grotesque-alt" rel="stylesheet">
+    <link rel="stylesheet" href="./style/scss/style.css">
+    <title>Futuri</title>
+</head>
+<body>
+    
+    <div class="wrapper">
+
+        <div class="slidebar">
+
+            <nav class="slidebar__nav">
+                <ul class="slidebar__list">
+                    <li class="slidebar__li active-slidebar"><a href="#" class="slidebar__link"><span><svg class="slidebar__svgMenu" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="Iconly/Bulk/Home"><g id="Home"><path id="Home_2" d="M9.14373 20.7821V17.7152C9.14372 16.9381 9.77567 16.3067 10.5584 16.3018H13.4326C14.2189 16.3018 14.8563 16.9346 14.8563 17.7152V20.7732C14.8562 21.4473 15.404 21.9951 16.0829 22H18.0438C18.9596 22.0023 19.8388 21.6428 20.4872 21.0007C21.1356 20.3586 21.5 19.4868 21.5 18.5775V9.86585C21.5 9.13139 21.1721 8.43471 20.6046 7.9635L13.943 2.67427C12.7785 1.74912 11.1154 1.77901 9.98539 2.74538L3.46701 7.9635C2.87274 8.42082 2.51755 9.11956 2.5 9.86585V18.5686C2.5 20.4637 4.04738 22 5.95617 22H7.87229C8.19917 22.0023 8.51349 21.8751 8.74547 21.6464C8.97746 21.4178 9.10793 21.1067 9.10792 20.7821H9.14373Z" /></g></g></svg>
+                        </span> Dashboard</a></li>
+                    <li class="slidebar__li"><a href="#" class="slidebar__link"><span><svg class="slidebar__svgMenu" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g id="Iconly/Bulk/Category">
+                        <g id="Category">
+                        <path id="Fill 1" opacity="0.4" d="M16.0755 2H19.4615C20.8637 2 22 3.14585 22 4.55996V7.97452C22 9.38864 20.8637 10.5345 19.4615 10.5345H16.0755C14.6732 10.5345 13.537 9.38864 13.537 7.97452V4.55996C13.537 3.14585 14.6732 2 16.0755 2Z" fill="#D9D9D9"/>
+                        <path id="Combined Shape" fill-rule="evenodd" clip-rule="evenodd" d="M4.53852 2H7.92449C9.32676 2 10.463 3.14585 10.463 4.55996V7.97452C10.463 9.38864 9.32676 10.5345 7.92449 10.5345H4.53852C3.13626 10.5345 2 9.38864 2 7.97452V4.55996C2 3.14585 3.13626 2 4.53852 2ZM4.53852 13.4655H7.92449C9.32676 13.4655 10.463 14.6114 10.463 16.0255V19.44C10.463 20.8532 9.32676 22 7.92449 22H4.53852C3.13626 22 2 20.8532 2 19.44V16.0255C2 14.6114 3.13626 13.4655 4.53852 13.4655ZM19.4615 13.4655H16.0755C14.6732 13.4655 13.537 14.6114 13.537 16.0255V19.44C13.537 20.8532 14.6732 22 16.0755 22H19.4615C20.8637 22 22 20.8532 22 19.44V16.0255C22 14.6114 20.8637 13.4655 19.4615 13.4655Z"/>
+                        </g>
+                        </g>
+                        </svg>
+                        </span> Marketplace</a></li>
+                    <li class="slidebar__li"><a href="#" class="slidebar__link"><span><svg class="slidebar__svgMenu" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g id="Iconly/Bulk/Message">
+                        <g id="Group">
+                        <path id="Fill 1" opacity="0.4" d="M21.9999 15.9402C21.9999 18.7302 19.7599 20.9902 16.9699 21.0002H16.9599H7.04988C4.26988 21.0002 1.99988 18.7502 1.99988 15.9602V15.9502C1.99988 15.9502 2.00588 11.5242 2.01388 9.29824C2.01488 8.88024 2.49488 8.64624 2.82188 8.90624C5.19788 10.7912 9.44688 14.2282 9.49988 14.2732C10.2099 14.8422 11.1099 15.1632 12.0299 15.1632C12.9499 15.1632 13.8499 14.8422 14.5599 14.2622C14.6129 14.2272 18.7669 10.8932 21.1789 8.97724C21.5069 8.71624 21.9889 8.95024 21.9899 9.36724C21.9999 11.5762 21.9999 15.9402 21.9999 15.9402Z"/>
+                        <path id="Fill 4" d="M21.476 5.67363C20.61 4.04163 18.906 2.99963 17.03 2.99963H7.05001C5.17401 2.99963 3.47001 4.04163 2.60401 5.67363C2.41001 6.03863 2.50201 6.49363 2.82501 6.75163L10.25 12.6906C10.77 13.1106 11.4 13.3196 12.03 13.3196C12.034 13.3196 12.037 13.3196 12.04 13.3196C12.043 13.3196 12.047 13.3196 12.05 13.3196C12.68 13.3196 13.31 13.1106 13.83 12.6906L21.255 6.75163C21.578 6.49363 21.67 6.03863 21.476 5.67363Z" fill="#D9D9D9"/>
+                        </g>
+                        </g>
+                        </svg>
+                        </span> My Collection</a></li>
+                    <li class="slidebar__li"><a href="#" class="slidebar__link"><span><svg class="slidebar__svgMenu" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g id="Iconly/Bulk/Folder">
+                        <g id="Folder">
+                        <path id="Folder 2" opacity="0.4" d="M16.8843 5.11485H13.9413C13.2081 5.11969 12.512 4.79355 12.0474 4.22751L11.0782 2.88762C10.6214 2.31661 9.9253 1.98894 9.19321 2.00028H7.11261C3.37819 2.00028 2.00001 4.19201 2.00001 7.91884V11.9474C1.99536 12.3904 21.9956 12.3898 21.9969 11.9474V10.7761C22.0147 7.04924 20.6721 5.11485 16.8843 5.11485Z" fill="#D9D9D9"/>
+                        <path id="Folder_2" fill-rule="evenodd" clip-rule="evenodd" d="M20.8321 6.54341C21.1521 6.91749 21.3993 7.34781 21.5612 7.81231C21.8798 8.76699 22.0273 9.77024 21.9969 10.776V16.0291C21.9956 16.4715 21.963 16.9133 21.8991 17.3512C21.7775 18.1239 21.5057 18.8655 21.0989 19.5341C20.9119 19.857 20.6849 20.1551 20.4231 20.4214C19.2383 21.5088 17.665 22.0748 16.0574 21.992H7.93061C6.32049 22.0742 4.74462 21.5084 3.55601 20.4214C3.2974 20.1546 3.07337 19.8565 2.88915 19.5341C2.48475 18.8659 2.21869 18.1237 2.1067 17.3512C2.03549 16.9141 1.99981 16.4719 2 16.0291V10.776C1.99983 10.3373 2.02357 9.8989 2.07113 9.46276C2.08113 9.38624 2.09614 9.31097 2.11098 9.23647C2.13573 9.11228 2.16005 8.99026 2.16005 8.86824C2.25031 8.34192 2.41496 7.83104 2.64908 7.35089C3.34261 5.86904 4.76525 5.1148 7.09481 5.1148H16.8754C18.1802 5.01389 19.4753 5.40668 20.5032 6.2151C20.6215 6.31548 20.7316 6.42528 20.8321 6.54341ZM6.97033 15.541H17.0355H17.0533C17.2741 15.5506 17.4896 15.4716 17.6517 15.3215C17.8137 15.1715 17.9088 14.9629 17.9157 14.7424C17.9282 14.5486 17.8644 14.3576 17.7379 14.21C17.5924 14.0117 17.3618 13.8934 17.1155 13.8906H6.97033C6.51365 13.8906 6.14343 14.26 6.14343 14.7158C6.14343 15.1716 6.51365 15.541 6.97033 15.541Z"/>
+                        </g>
+                        </g>
+                        </svg>
+                        </span> Wallet</a></li>
+                    <li class="slidebar__li"><a href="#" class="slidebar__link"><span><svg class="slidebar__svgMenu" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g id="Iconly/Bulk/Wallet">
+                        <g id="Wallet">
+                        <path id="Fill 1" fill-rule="evenodd" clip-rule="evenodd" d="M21.9964 8.37513H17.7618C15.7911 8.37859 14.1947 9.93514 14.1911 11.8566C14.1884 13.7823 15.7867 15.3458 17.7618 15.3484H22V15.6543C22 19.0136 19.9636 21 16.5173 21H7.48356C4.03644 21 2 19.0136 2 15.6543V8.33786C2 4.97862 4.03644 3 7.48356 3H16.5138C19.96 3 21.9964 4.97862 21.9964 8.33786V8.37513ZM6.73956 8.36733H12.3796H12.3831H12.3902C12.8124 8.36559 13.1538 8.03019 13.152 7.61765C13.1502 7.20598 12.8053 6.87318 12.3831 6.87491H6.73956C6.32 6.87664 5.97956 7.20858 5.97778 7.61852C5.976 8.03019 6.31733 8.36559 6.73956 8.36733Z"/>
+                        <path id="Fill 4" opacity="0.4" d="M16.0374 12.2967C16.2465 13.2479 17.0805 13.9171 18.0326 13.8997H21.2825C21.6787 13.8997 22 13.5716 22 13.1661V10.6345C21.9991 10.2298 21.6787 9.90089 21.2825 9.90002H17.9561C16.8731 9.90351 15.9983 10.8025 16 11.9103C16 12.04 16.0128 12.1696 16.0374 12.2967Z" fill="#D9D9D9"/>
+                        <circle id="Oval" cx="18" cy="11.9" r="1" fill="#D9D9D9"/>
+                        </g>
+                        </g>
+                        </svg>
+                        </span> History</a></li>
+                    <li class="slidebar__li"><a href="#" class="slidebar__link"><span><svg class="slidebar__svgMenu" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g id="Iconly/Bulk/Activity">
+                        <g id="Activity">
+                        <path id="Path_34168" fill-rule="evenodd" clip-rule="evenodd" d="M15.2428 4.73756C15.2428 6.95855 17.0459 8.75902 19.2702 8.75902C19.5151 8.75782 19.7594 8.73431 20 8.68878V16.6615C20 20.0156 18.0215 22 14.6624 22H7.34636C3.97851 22 2 20.0156 2 16.6615V9.3561C2 6.00195 3.97851 4 7.34636 4H15.3131C15.2659 4.243 15.2423 4.49001 15.2428 4.73756ZM13.15 14.8966L16.0078 11.2088V11.1912C16.2525 10.8625 16.1901 10.3989 15.8671 10.1463C15.7108 10.0257 15.5122 9.97345 15.3167 10.0016C15.1211 10.0297 14.9453 10.1358 14.8295 10.2956L12.4201 13.3951L9.6766 11.2351C9.51997 11.1131 9.32071 11.0592 9.12381 11.0856C8.92691 11.1121 8.74898 11.2166 8.63019 11.3756L5.67562 15.1863C5.57177 15.3158 5.51586 15.4771 5.51734 15.6429C5.5002 15.9781 5.71187 16.2826 6.03238 16.3838C6.35288 16.485 6.70138 16.3573 6.88031 16.0732L9.35125 12.8771L12.0948 15.0283C12.2508 15.1541 12.4514 15.2111 12.6504 15.1863C12.8494 15.1615 13.0297 15.0569 13.15 14.8966Z"/>
+                        <circle id="Ellipse_742" opacity="0.4" cx="19.5" cy="4.5" r="2.5" fill="#D9D9D9"/>
+                        </g>
+                        </g>
+                        </svg>
+                        </span> Settings</a></li>
+                    <li class="slidebar__li"><a href="#" class="slidebar__link"><span><svg class="slidebar__svgMenu" width="17" height="20" viewBox="0 0 17 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12.5839 0.56737C12.2849 0.25637 11.7629 0.47037 11.7629 0.90137V3.53837C11.7629 4.64437 12.6739 5.55437 13.7799 5.55437C14.4769 5.56237 15.4449 5.56437 16.2669 5.56237C16.6879 5.56137 16.9019 5.05837 16.6099 4.75437C15.5549 3.65737 13.6659 1.69137 12.5839 0.56737Z" fill="#D9D9D9"/>
+                        <path d="M10.918 14.3818H5.47398C5.06298 14.3818 4.72998 14.0488 4.72998 13.6378C4.72998 13.2268 5.06298 12.8928 5.47398 12.8928H10.918C11.329 12.8928 11.663 13.2268 11.663 13.6378C11.663 14.0488 11.329 14.3818 10.918 14.3818Z" fill="white"/>
+                        <path d="M8.85898 9.38768H5.47398C5.06298 9.38768 4.72998 9.05468 4.72998 8.64368C4.72998 8.23268 5.06298 7.89868 5.47398 7.89868H8.85898C9.26998 7.89868 9.60398 8.23268 9.60398 8.64368C9.60398 9.05468 9.26998 9.38768 8.85898 9.38768Z" fill="white"/>
+                        <path opacity="0.4" d="M10.918 14.3818H5.47398C5.06298 14.3818 4.72998 14.0488 4.72998 13.6378C4.72998 13.2268 5.06298 12.8928 5.47398 12.8928H10.918C11.329 12.8928 11.663 13.2268 11.663 13.6378C11.663 14.0488 11.329 14.3818 10.918 14.3818Z" fill="#D9D9D9"/>
+                        <path opacity="0.4" d="M8.85898 9.38768H5.47398C5.06298 9.38768 4.72998 9.05468 4.72998 8.64368C4.72998 8.23268 5.06298 7.89868 5.47398 7.89868H8.85898C9.26998 7.89868 9.60398 8.23268 9.60398 8.64368C9.60398 9.05468 9.26998 9.38768 8.85898 9.38768Z" fill="#D9D9D9"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M14.6315 7.01693C14.8854 7.01908 15.1111 7.021 15.3088 7.021C15.5313 7.021 15.8565 7.01841 16.179 7.01583C16.3043 7.01484 16.4292 7.01384 16.5475 7.013C16.799 7.012 17 7.217 17 7.471V15.502C17 17.987 15.0058 20 12.5463 20H4.66958C2.09022 20 0 17.889 0 15.284V4.509C0 2.026 1.99517 0 4.46363 0H9.75304C10.0036 0 10.2055 0.206 10.2055 0.459V3.675C10.2055 5.508 11.6987 7.011 13.5146 7.011C13.9333 7.011 14.3056 7.01416 14.6315 7.01693ZM8.85898 9.38762H5.47398C5.06298 9.38762 4.72998 9.05462 4.72998 8.64362C4.72998 8.23262 5.06298 7.89862 5.47398 7.89862H8.85898C9.26998 7.89862 9.60398 8.23262 9.60398 8.64362C9.60398 9.05462 9.26998 9.38762 8.85898 9.38762ZM10.9181 14.3818H5.47408C5.06308 14.3818 4.73008 14.0488 4.73008 13.6378C4.73008 13.2268 5.06308 12.8928 5.47408 12.8928H10.9181C11.3291 12.8928 11.6631 13.2268 11.6631 13.6378C11.6631 14.0488 11.3291 14.3818 10.9181 14.3818Z"/>
+                        </svg>
+                        </span> Resources</a></li>
+                </ul>
+            </nav>
+
+            <div class="slidebar__earn">
+                <h1 class="slidebar__title">Earn up to $100 worth of NFT</h1>
+                <button class="slidebar__button">
+                    Learn More
+                    <span class="slidebar__svg"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path opacity="0.4" d="M11.9999 1.99976C17.5149 1.99976 21.9999 6.48576 21.9999 11.9998C21.9999 17.5138 17.5149 21.9998 11.9999 21.9998C6.48588 21.9998 1.99988 17.5138 1.99988 11.9998C1.99988 6.48576 6.48588 1.99976 11.9999 1.99976Z" fill="#B33FFF"/>
+                        <path d="M10.5575 7.77917C10.7485 7.77917 10.9405 7.85217 11.0865 7.99817L14.5735 11.4682C14.7145 11.6092 14.7935 11.8002 14.7935 12.0002C14.7935 12.1992 14.7145 12.3902 14.5735 12.5312L11.0865 16.0032C10.7935 16.2952 10.3195 16.2952 10.0265 16.0012C9.73448 15.7072 9.73548 15.2322 10.0285 14.9402L12.9815 12.0002L10.0285 9.06017C9.73548 8.76817 9.73448 8.29417 10.0265 8.00017C10.1725 7.85217 10.3655 7.77917 10.5575 7.77917Z" fill="#B33FFF"/>
+                        </svg>
+                    </span>
+                </button>
+            </div>
+
+        </div>
+
+        <main class="main">
+            <header class="header">
+
+                <div class="header__search">
+                    <form class="header__form">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g id="Iconly/Light/Search">
+                            <g id="Search">
+                            <circle class="header__searchSvg" id="Ellipse_739" cx="11.7666" cy="11.7666" r="8.98856" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path class="header__searchSvg" id="Line_181" d="M18.0183 18.4852L21.5423 22.0001" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </g>
+                            </g>
+                            </svg>
+                            
+                        <input type="text" class="header__input" placeholder="Search items, collection, accounts">
+                    </form>
+                </div>
+
+                <div class="header__profile">
+                    <button class="header__bell">
+                        <svg width="18" height="20" viewBox="0 0 18 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path class="header__bell-fill" d="M16.7695 9.64534C16.039 8.79229 15.7071 8.05305 15.7071 6.79716V6.37013C15.7071 4.73354 15.3304 3.67907 14.5115 2.62459C13.2493 0.986993 11.1244 0 9.04423 0H8.95577C6.91935 0 4.86106 0.941671 3.577 2.5128C2.71333 3.58842 2.29293 4.68822 2.29293 6.37013V6.79716C2.29293 8.05305 1.98284 8.79229 1.23049 9.64534C0.676907 10.2738 0.5 11.0815 0.5 11.9557C0.5 12.8309 0.787226 13.6598 1.36367 14.3336C2.11602 15.1413 3.17846 15.6569 4.26375 15.7466C5.83505 15.9258 7.40634 15.9933 9.0005 15.9933C10.5937 15.9933 12.165 15.8805 13.7372 15.7466C14.8215 15.6569 15.884 15.1413 16.6363 14.3336C17.2118 13.6598 17.5 12.8309 17.5 11.9557C17.5 11.0815 17.3231 10.2738 16.7695 9.64534Z"/>
+                            <path opacity="0.4" d="M11.0088 17.2284C10.5088 17.1216 7.46266 17.1216 6.96275 17.2284C6.53539 17.3271 6.07324 17.5567 6.07324 18.0603C6.09809 18.5407 6.37935 18.9647 6.76895 19.2336L6.76795 19.2346C7.27184 19.6274 7.86319 19.8771 8.48236 19.9668C8.81232 20.0121 9.14825 20.0101 9.49014 19.9668C10.1083 19.8771 10.6997 19.6274 11.2036 19.2346L11.2026 19.2336C11.5922 18.9647 11.8734 18.5407 11.8983 18.0603C11.8983 17.5567 11.4361 17.3271 11.0088 17.2284Z" fill="#D9D9D9"/>
+                            </svg>
+                    </button>
+                    <div class="header__avatar">
+                        <img src="img/logo.svg" alt="avatar">
+                    </div>
+                   <div class="header__select">
+                        <button class="header__select-click">
+                            <div class="header__select-title">Doadesignz</div>
+                            <span class="header__button-svg"><svg class='header__fill-click' width="14" height="12" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8.73205 11C7.96225 12.3333 6.03775 12.3333 5.26795 11L0.937822 3.5C0.168022 2.16666 1.13027 0.499999 2.66988 0.499999L11.3301 0.5C12.8697 0.5 13.832 2.16667 13.0622 3.5L8.73205 11Z"/>
+                                </svg></span>
+                        </button>
+
+                        <div class="nav-content">
+                            <div class="nav-content__theme">
+                                <div class="nav-content__title">Theme</div>
+                                <button class="nav-content__button">
+                                    <img src="./img/Sun.svg" class="nav-content__icon" alt="sun">
+                                    <img src="./img/Moon.svg" class="nav-content__icon" alt="sun">
+                                </button>
+                            </div>
+                        </div>
+
+                   </div>
+                </div>
+            </header>
+
+            <div class="block-main">
+
+                <div class="block-main__left">
+                    <section class="banner">
+                        <div class="banner__info">
+                            <h1 class="banner__title">Discover, Collect & Create your own NFT</h1>
+                            <p class="banner__text">Search items, collection, accounts</p>
+                            <div class="banner__battons">
+                                <button class="banner__button-one">Discover Now</button>
+                                <button class="banner__button-two">Create your NFT</button>
+                            </div>
+                        </div>
+                        <div class="banner__human">
+                            <img src="img/bannerHuman.png" class="banner__human-img" alt="human">
+                        </div>
+                    </section>
+        
+                    <section class="nfts">
+                        <div class="nfts__filter">
+                            <div class="nfts__filter-block">
+        
+                                <div class="nfts__info">
+                                    <h1 class="nfts__title">All NFTS</h1>
+                                    <p class="nfts__items">2,345,678 items</p>
+                                </div>
+        
+                                <a href="#" class="nfts__link">See all</a>
+        
+                            </div>
+                            <div class="nfts__filter-blocks">
+        
+                                <button class="nfts__tab">
+                                    <span class="nfts__tab-round">
+                                        <img class="nfts__tab-img" src="img/filterTab/one.svg" alt="img">
+                                    </span>
+                                    <sapan class="nfts__text">Popular</sapan>
+                                </button>
+        
+                                <button class="nfts__tab">
+                                    <span class="nfts__tab-round">
+                                        <img class="nfts__tab-img" src="img/filterTab/two.svg" alt="img">
+                                    </span>
+                                    <sapan class="nfts__text">Arts</sapan>
+                                </button>
+        
+                                <button class="nfts__tab">
+                                    <span class="nfts__tab-round">
+                                        <img class="nfts__tab-img" src="img/filterTab/three.svg" alt="img">
+                                    </span>
+                                    <sapan class="nfts__text">Games</sapan>
+                                </button>
+        
+                                <button class="nfts__tab">
+                                    <span class="nfts__tab-round">
+                                        <img class="nfts__tab-img" src="img/filterTab/four.svg" alt="img">
+                                    </span>
+                                    <sapan class="nfts__text">Music</sapan>
+                                </button>
+        
+                                <button class="nfts__tab">
+                                    <span class="nfts__tab-round">
+                                        <img class="nfts__tab-img" src="img/filterTab/five.svg" alt="img">
+                                    </span>
+                                    <sapan class="nfts__text">Sports</sapan>
+                                </button>
+        
+                                <button class="nfts__tab">
+                                    <span class="nfts__tab-round">
+                                        <img class="nfts__tab-img" src="img/filterTab/six.svg" alt="img">
+                                    </span>
+                                    <sapan class="nfts__text">Photography</sapan>
+                                </button>
+        
+                            </div>
+                        </div>
+        
+                        <div class="card">
+        
+                            <div class="card__cards">
+                                <div class="card__block-img">
+                                    <img src="img/card/cardOne.jpg" class="card__img" alt="card">
+                                    <div class="card__block-number">
+                                        <div class="card__hour">08</div>
+                                        <span class="card__decore">:</span>
+                                        <div class="card__minutes">09</div>
+                                        <span class="card__decore">:</span>
+                                        <div class="card__seconds">20</div>
+                                    </div>
+                                </div>
+                               
+                
+                                <div class="card__main">
+                                    <div class="card__info">
+                                        <div class="card__title">The Future wave #23</div>
+                                        <div class="card__name">@spaceman</div>
+                                    </div>
+                                    <img src="img/card/avatarOne.png" class="card__avatar" alt="avatar">
+                                </div>
+                
+                                <div class="card__block">
+                                    <div class="card__current">
+                                        <div class="card__title-current">Current Bid</div>
+                                        <div class="card__btc">0.24 BTC</div>
+                                    </div>
+                
+                                    <div class="card__ending">
+                                        <div class="card__title-ending">Ending in</div>
+                                        <div class="card__time">12h 14m 16s</div>
+                                    </div>
+                                </div>
+                
+                            </div>
+        
+                            <div class="card__cards">
+                                <div class="card__block-img-two">
+                                    <img src="img/card/cardTwo.jpg" class="card__img" alt="card">
+                                    <div class="card__block-number">
+                                        <div class="card__hour">08</div>
+                                        <span class="card__decore">:</span>
+                                        <div class="card__minutes">09</div>
+                                        <span class="card__decore">:</span>
+                                        <div class="card__seconds">20</div>
+                                    </div>
+                                </div>
+                               
+                
+                                <div class="card__main">
+                                    <div class="card__info">
+                                        <div class="card__title">Astro World #244</div>
+                                        <div class="card__name">@astrowave</div>
+                                    </div>
+                                    <img src="img/card/avatarTwo.png" class="card__avatar" alt="avatar">
+                                </div>
+                
+                                <div class="card__block">
+                                    <div class="card__current">
+                                        <div class="card__title-current">Current Bid</div>
+                                        <div class="card__btc">0.24 BTC</div>
+                                    </div>
+                
+                                    <div class="card__ending">
+                                        <div class="card__title-ending">Ending in</div>
+                                        <div class="card__time">12h 14m 16s</div>
+                                    </div>
+                                </div>
+                
+                            </div>
+        
+                            <div class="card__cards">
+                                <div class="card__block-img-three ">
+                                    <img src="img/card/cardThree.jpg" class="card__img" alt="card">
+                                    <div class="card__block-number">
+                                        <div class="card__hour">08</div>
+                                        <span class="card__decore">:</span>
+                                        <div class="card__minutes">09</div>
+                                        <span class="card__decore">:</span>
+                                        <div class="card__seconds">20</div>
+                                    </div>
+                                </div>
+                               
+                
+                                <div class="card__main">
+                                    <div class="card__info">
+                                        <div class="card__title">Cyber Art #234</div>
+                                        <div class="card__name">@cybermask</div>
+                                    </div>
+                                    <img src="img/card/avatarThree.png" class="card__avatar" alt="avatar">
+                                </div>
+                
+                                <div class="card__block">
+                                    <div class="card__current">
+                                        <div class="card__title-current">Current Bid</div>
+                                        <div class="card__btc">0.24 BTC</div>
+                                    </div>
+                
+                                    <div class="card__ending">
+                                        <div class="card__title-ending">Ending in</div>
+                                        <div class="card__time">12h 14m 16s</div>
+                                    </div>
+                                </div>
+                
+                            </div>
+        
+                        </div>
+        
+                    </section>
+        
+                    <section class="creators">
+        
+                        <div class="nfts__filter-block creators__block">
+        
+                            <div class="nfts__info">
+                                <h1 class="nfts__title">Top NFTS</h1>
+                                <p class="nfts__items">564 Creators</p>
+                            </div>
+        
+                            <a href="#" class="nfts__link">See all</a>
+        
+                        </div>
+        
+                        <div class="creators__table">
+                            <table class="creators-table">
+                                <thead>
+                                    <tr>
+                                        <th>Collection</th>
+                                        <th>Volume</th>
+                                        <th>24h%</th>
+                                        <th>Owners</th>
+                                        <th>Items</th>
+                                    </tr>
+                                </thead>
+        
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <div class="collection">
+                                                <div class="collection__img">
+                                                    <img src="./img/collection/avatarCollectionOne.png" alt="collection">
+                                                </div>
+                                                <div class="collection__info">
+                                                    <div class="collection__title">Cool Cyber Apes</div>
+                                                    <div class="collection__name">@cybasseman</div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class="creators-table__volume-btc">
+                                            <div class="creators-table__volume">
+                                                0.24 BTC
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="creators-table__arrow">
+                                                <img src="./img/collection/arrowUP.svg" alt="arrow">
+                                                <div class="creators-table__percent">+25%</div>
+                                            </div>
+                                        </td>
+                                        <td class="creators-table__owners">5.5k</td>
+                                        <td class="creators-table__items">12.5k</td>
+                                    </tr>
+        
+                                    <tr>
+                                        <td>
+                                            <div class="collection">
+                                                <div class="collection__img">
+                                                    <img src="./img/collection/avatarCollectionTwo.png" alt="collection">
+                                                </div>
+                                                <div class="collection__info">
+                                                    <div class="collection__title">Shadow Cube</div>
+                                                    <div class="collection__name">@cubicglass</div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class="creators-table__volume-btc">
+                                            <div class="creators-table__volume">
+                                                0.24 BTC
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="creators-table__arrow">
+                                                <img src="./img/collection/arrowEND.svg" alt="arrow">
+                                                <div class="creators-table__percent creators-table__percent-red">-15%</div>
+                                            </div>
+                                        </td>
+                                        <td class="creators-table__owners">5.5k</td>
+                                        <td class="creators-table__items">12.5k</td>
+                                    </tr>
+        
+                                    <tr>
+                                        <td>
+                                            <div class="collection">
+                                                <div class="collection__img">
+                                                    <img src="./img/collection/avatarCollectionThree.png" alt="collection">
+                                                </div>
+                                                <div class="collection__info">
+                                                    <div class="collection__title">Satoshi Mori</div>
+                                                    <div class="collection__name">@whoissatoshi</div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class="creators-table__volume-btc">
+                                            <div class="creators-table__volume">
+                                                0.24 BTC
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="creators-table__arrow">
+                                                <img src="./img/collection/arrowUP.svg" alt="arrow">
+                                                <div class="creators-table__percent">+25%</div>
+                                            </div>
+                                        </td>
+                                        <td class="creators-table__owners">5.5k</td>
+                                        <td class="creators-table__items">12.5k</td>
+                                    </tr>
+        
+                                    <tr>
+                                        <td>
+                                            <div class="collection">
+                                                <div class="collection__img">
+                                                    <img src="./img/collection/avatarCollectionFour.png" alt="collection">
+                                                </div>
+                                                <div class="collection__info">
+                                                    <div class="collection__title">The Scars</div>
+                                                    <div class="collection__name">@Euphorian</div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class="creators-table__volume-btc">
+                                            <div class="creators-table__volume">
+                                                0.24 BTC
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="creators-table__arrow">
+                                                <img src="./img/collection/arrowEND.svg" alt="arrow">
+                                                <div class="creators-table__percent creators-table__percent-red">-11%</div>
+                                            </div>
+                                        </td>
+                                        <td class="creators-table__owners">5.5k</td>
+                                        <td class="creators-table__items">12.5k</td>
+                                    </tr>
+        
+                                    <tr>
+                                        <td>
+                                            <div class="collection">
+                                                <div class="collection__img">
+                                                    <img src="./img/collection/avatarCollectionOne.png" alt="collection">
+                                                </div>
+                                                <div class="collection__info">
+                                                    <div class="collection__title">Cool Cyber Apes</div>
+                                                    <div class="collection__name">@cybasseman</div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class="creators-table__volume-btc">
+                                            <div class="creators-table__volume">
+                                                0.24 BTC
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="creators-table__arrow">
+                                                <img src="./img/collection/arrowUP.svg" alt="arrow">
+                                                <div class="creators-table__percent">+25%</div>
+                                            </div>
+                                        </td>
+                                        <td class="creators-table__owners">5.5k</td>
+                                        <td class="creators-table__items">12.5k</td>
+                                    </tr>
+        
+                                    <tr>
+                                        <td>
+                                            <div class="collection">
+                                                <div class="collection__img">
+                                                    <img src="./img/collection/avatarCollectionThree.png" alt="collection">
+                                                </div>
+                                                <div class="collection__info">
+                                                    <div class="collection__title">Satoshi Mori</div>
+                                                    <div class="collection__name">@whoissatoshi</div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class="creators-table__volume-btc">
+                                            <div class="creators-table__volume">
+                                                0.24 BTC
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="creators-table__arrow">
+                                                <img src="./img/collection/arrowUP.svg" alt="arrow">
+                                                <div class="creators-table__percent">+25%</div>
+                                            </div>
+                                        </td>
+                                        <td class="creators-table__owners">5.5k</td>
+                                        <td class="creators-table__items">12.5k</td>
+                                    </tr>
+        
+                                </tbody>
+                            </table>
+                        </div>
+        
+                    </section>
+                </div>
+
+                <div class="block-main__right">
+
+                    <section class="balance-block">
+                        <h1 class="balance-block__title">Your Balance</h1>
+                        <div class="balance-block__balance"><span>$</span>350,000.20</div>
+                        <div class="balance-block__general">
+                            <div class="balance-block__total balance-block__totals">Total Offers</div>
+                            <div class="balance-block__usd balance-block__totals">USD 158,000</div>
+                            <div class="balance-block__percent balance-block__totals">(59.11%)</div>
+                        </div>
+                        <div class="balance-block__link-block">
+                            <a href="#" class="balance-block__link" id="copy">sdfgcghjhkb21687udwhjknscnkjkj....</a>
+                            <img class="balance-block__copy" src="./img/copy.svg" alt="linkImg">
+                        </div>
+                        <button class="balance-block__button">
+                            <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path class="balance-block__plus" opacity="0.4" d="M22 0H8C2.89333 0 0 2.89333 0 8V22C0 27.0933 2.88 30 8 30H22C27.1067 30 30 27.0933 30 22V8C30 2.89333 27.1067 0 22 0Z"/>
+                                <path d="M19.9807 16.0625H16.1243V19.8855C16.1243 20.501 15.6209 21 15 21C14.3791 21 13.8757 20.501 13.8757 19.8855V16.0625H10.0193C9.44013 16.003 9 15.5192 9 14.942C9 14.3647 9.44013 13.8809 10.0193 13.8215H13.8636V10.0105C13.9236 9.43632 14.4117 9 14.994 9C15.5762 9 16.0643 9.43632 16.1243 10.0105V13.8215H19.9807C20.5599 13.8809 21 14.3647 21 14.942C21 15.5192 20.5599 16.003 19.9807 16.0625Z" fill="white"/>
+                                </svg>                                
+                            <span>TopUp Balance</span>
+                        </button>
+                    </section>
+
+                    <section class="sellers">
+
+                        <div class="sellers__top">
+                            <h1 class="sellers__title">Top Sellers</h1>
+                            <a href="#" class="sellers__link">See all</a>
+                        </div>
+
+                        <div class="profiles">
+
+                            <div class="profiles__profile">
+                                <div class="profiles__info">
+                                    <img src="./img/profile/avatarProf1.png" class="profiles__avatar" alt="avatar">
+                                    <div class="profiles__names">
+                                        <div class="profiles__name">Sam Lee</div>
+                                        <div class="profiles__name-prof">@samlee</div>
+                                    </div>
+                                </div>
+                                <button class="profiles__follow">Follow</button>
+                            </div>
+
+                            <div class="profiles__profile">
+                                <div class="profiles__info">
+                                    <img src="./img/profile/avatarProf1.png" class="profiles__avatar" alt="avatar">
+                                    <div class="profiles__names">
+                                        <div class="profiles__name">Sam Lee</div>
+                                        <div class="profiles__name-prof">@samlee</div>
+                                    </div>
+                                </div>
+                                <button class="profiles__follow">Follow</button>
+                            </div>
+
+                            <div class="profiles__profile">
+                                <div class="profiles__info">
+                                    <img src="./img/profile/avatarProf1.png" class="profiles__avatar" alt="avatar">
+                                    <div class="profiles__names">
+                                        <div class="profiles__name">Sam Lee</div>
+                                        <div class="profiles__name-prof">@samlee</div>
+                                    </div>
+                                </div>
+                                <button class="profiles__follow">Follow</button>
+                            </div>
+
+                            <div class="profiles__profile">
+                                <div class="profiles__info">
+                                    <img src="./img/profile/avatarProf1.png" class="profiles__avatar" alt="avatar">
+                                    <div class="profiles__names">
+                                        <div class="profiles__name">Sam Lee</div>
+                                        <div class="profiles__name-prof">@samlee</div>
+                                    </div>
+                                </div>
+                                <button class="profiles__follow">Follow</button>
+                            </div>
+
+                            <div class="profiles__profile">
+                                <div class="profiles__info">
+                                    <img src="./img/profile/avatarProf1.png" class="profiles__avatar" alt="avatar">
+                                    <div class="profiles__names">
+                                        <div class="profiles__name">Sam Lee</div>
+                                        <div class="profiles__name-prof">@samlee</div>
+                                    </div>
+                                </div>
+                                <button class="profiles__follow">Follow</button>
+                            </div>
+
+                            <div class="profiles__profile">
+                                <div class="profiles__info">
+                                    <img src="./img/profile/avatarProf1.png" class="profiles__avatar" alt="avatar">
+                                    <div class="profiles__names">
+                                        <div class="profiles__name">Sam Lee</div>
+                                        <div class="profiles__name-prof">@samlee</div>
+                                    </div>
+                                </div>
+                                <button class="profiles__follow">Follow</button>
+                            </div>
+
+                            <div class="profiles__profile">
+                                <div class="profiles__info">
+                                    <img src="./img/profile/avatarProf1.png" class="profiles__avatar" alt="avatar">
+                                    <div class="profiles__names">
+                                        <div class="profiles__name">Sam Lee</div>
+                                        <div class="profiles__name-prof">@samlee</div>
+                                    </div>
+                                </div>
+                                <button class="profiles__follow">Follow</button>
+                            </div>
+
+                            <div class="profiles__profile">
+                                <div class="profiles__info">
+                                    <img src="./img/profile/avatarProf1.png" class="profiles__avatar" alt="avatar">
+                                    <div class="profiles__names">
+                                        <div class="profiles__name">Sam Lee</div>
+                                        <div class="profiles__name-prof">@samlee</div>
+                                    </div>
+                                </div>
+                                <button class="profiles__follow">Follow</button>
+                            </div>
+
+                            <div class="profiles__profile">
+                                <div class="profiles__info">
+                                    <img src="./img/profile/avatarProf1.png" class="profiles__avatar" alt="avatar">
+                                    <div class="profiles__names">
+                                        <div class="profiles__name">Sam Lee</div>
+                                        <div class="profiles__name-prof">@samlee</div>
+                                    </div>
+                                </div>
+                                <button class="profiles__follow">Follow</button>
+                            </div>
+
+                            <div class="profiles__profile">
+                                <div class="profiles__info">
+                                    <img src="./img/profile/avatarProf1.png" class="profiles__avatar" alt="avatar">
+                                    <div class="profiles__names">
+                                        <div class="profiles__name">Sam Lee</div>
+                                        <div class="profiles__name-prof">@samlee</div>
+                                    </div>
+                                </div>
+                                <button class="profiles__follow">Follow</button>
+                            </div>
+                        </div>
+                    </section>
+
+                </div>
+            </div>
+
+        </main>
+
+    </div>
+
+    <script src="./script/index.js"></script>
+</body>
+</html>
