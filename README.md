@@ -1,3 +1,3 @@
 ### <h1>NFT sale site</h1>
 
-### Technologies: HTML, SCSS, JAVASCRIPT, FIGMA
+### <h3>Technologies: HTML, SCSS, JAVASCRIPT, FIGMA</h3>
